@@ -1,0 +1,138 @@
+.Classes-Main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.Classes-Image > img{
+    height: 400px;
+    position: absolute;
+     top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+     opacity: .7;
+    z-index: 0;
+} 
+
+.Classes-FirstText {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    color: white ;
+    top: 9.375rem;
+    z-index: 1;
+    /* margin-left: 24%; */
+}
+
+.Classes-FirstText> h1{
+    color: rgb(131, 9, 9);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 5 rem;
+    text-align: center;
+}
+
+.Classes-FirstText> span{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.Classes-SecondText{
+    position: relative;
+    top: 25rem;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+    /* text-align: center; */
+    /* border: 2px solid blue; */
+}
+
+.Classes-SecondText > span{
+    /* margin-left: 780px; */
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+}
+
+.Classes-SecondText > h1{
+    font-family: FitnessFirst-Medium;
+    /* margin-left: 600px; */
+    font-size: 2.5rem;
+}
+
+.Classes-SecondText > p{
+    /* margin-left: 600px; */
+    /* border: 1px solid; */
+}
+
+.Classes-Scroller{
+    border: 2px solid rgb(243, 0, 0);
+    /* position: relative; */
+    margin-top: 25rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* right: 30px; */
+    top: 0.625rem;
+    width: 100%;
+    overflow-y: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color:#30363d;
+    height:31.25rem;
+
+    scroll-behavior: smooth;
+}
+
+.Classes-Scroller > .leftslide{
+    position: sticky;
+    left: 0;
+    z-index: 15;
+    font-size: xx-large;
+}
+
+.Classes-Scroller > .rightslide{
+    position: sticky;
+    right: 0;
+    font-size: xx-large;
+    z-index: 15;
+    text-align: center;
+}
+
+.Classes-ThirdText{
+    position: relative;
+    top: 0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+}
+
+.Classes-ThirdText > span{
+    /* margin-left: 780px; */
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+}
+
+.Classes-ThirdText > h1{
+    font-family: FitnessFirst-Medium;
+    /* margin-left: 600px; */
+    font-size: 2.5rem;
+}
+
+.Classes-ThirdText > p{
+    /* margin-left: 600px; */
+}

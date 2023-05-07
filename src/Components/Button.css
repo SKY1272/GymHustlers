@@ -1,0 +1,23 @@
+.scrollBtn{
+    background-color: transparent;
+    position: sticky;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 80%;
+  font-size: xx-large;
+
+}
+.scrollBtn:hover{
+    
+}
+.scrollBtn:active{
+    transform: translateY(4px);
+}
+@media screen and (max-width:650px) {
+    .scrollBtn{
+        display: none;
+        
+    }
+    
+}
